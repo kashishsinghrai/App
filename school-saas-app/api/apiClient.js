@@ -5,7 +5,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
  * API CONFIGURATION
  * Note: Change 10.0.2.2 to your Local IP if testing on a Physical Device.
  */
-const BASE_URL = "http://10.0.2.2:5000/api";
+const BASE_URL = "https://school-saas-backend-ac4d.onrender.com/api";
 
 const apiClient = axios.create({
   baseURL: BASE_URL,
